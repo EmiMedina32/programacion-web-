@@ -16,3 +16,9 @@
 
 
 }
+.alinamiento{
+    display: flex;
+    justify-content: space-evenly;
+    
+
+}
