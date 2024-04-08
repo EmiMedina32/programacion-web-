@@ -1,0 +1,28 @@
+.alineamientoTitulo{
+    display: flex;
+    justify-content: center;
+}
+.fondopagina{
+    background-image: url('hot-sunrise-in-space.webp');
+    background-size: cover;
+}
+h1 {
+    color: white;
+}
+
+.grilla{ 
+    display: grid;
+   /* grid-template-columns: 250px 250px 250px;/*como generar disposicion basica de las columnas de una grilla*/
+        grid-template-columns: repeat(3,250px);
+  /* grid-template-rows: 350px;*/
+     /*grid-template-columns: repeat(auto-fit,minmax(300px,1fr));*/
+    grid-auto-rows: auto;
+    gap: 20px;
+}
+
+.fotodinamica{
+    width: 100%;
+    aspect-ratio: 1 / 2 ;/*puede ser opcional - darle estructuraa la foto si es widescreen o si es tipo retrato*/
+    object-fit: cover;
+
+}
