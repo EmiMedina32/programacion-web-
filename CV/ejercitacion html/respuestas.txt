@@ -1,0 +1,12 @@
+1.La propiedad flex es la que cambia el comportamiento .
+2. usando gap 
+3.El align-items sirve para alinear nuestro articulo en el eje transversal,y el justify-content 
+para alinear el eje en linea principal .
+4.Definimos filas y columnas en nuestra cuadrícula con las propiedades grid-template-columns y grid-template-rows .
+5. la primera es que  display: grid te proporciona una cuadrícula de una sola columna, indica la capacidad de un elemento flexible para alterar sus dimensiones.
+
+6. la propiedad display: flex; y justify-content: center; sirven para alinear
+
+
+
+s
