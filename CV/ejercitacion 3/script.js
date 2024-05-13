@@ -1,7 +1,15 @@
 function agregarElemento(){
 
     let lista = document.getElementById("lista");
-    let input = document.getElementById(textarea).ariaValueMax
+    let input = document.getElementById(textarea).value;
+    const elementoLista = document.createElement("li");
     const button  = document.createElement("button");
-    //console.log(lista);
+
+    elementoLista.textContent = input
+
+
+
+    
+
+
 }

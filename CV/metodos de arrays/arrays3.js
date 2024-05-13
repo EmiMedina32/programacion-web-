@@ -1,0 +1,1 @@
+while (contador < array.length) {}
